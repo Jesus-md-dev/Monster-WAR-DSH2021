@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/XR/Settings/AR Kit Settings.asset
-    - Assets/XR/Settings/AR Kit Settings.asset.meta
+    - Assets/Scenes/TestScene.unity
+    - Assets/Scripts/CharacterManager.cs
+    - Assets/Scripts/PlayerManager.cs
     - 
-    m_Values: 000000
+    m_Values: 01010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

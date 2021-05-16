@@ -624,6 +624,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511073898}
   m_CullTransparentMesh: 1
+--- !u!1 &574588000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4170315265125693162, guid: b499ad6031a020b499dbdfbc3e96e3c3, type: 3}
+  m_PrefabInstance: {fileID: 4170315264252301515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &574588001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574588000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22274959b00ea804a92b4dba67772d4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  criticalDamage: 75
+  standardDamage: 50
+  minimumDamage: 25
 --- !u!1 &624531469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,6 +2223,10 @@ PrefabInstance:
       propertyPath: battleButton
       value: 
       objectReference: {fileID: 1619247919}
+    - target: {fileID: 4170315265125693167, guid: b499ad6031a020b499dbdfbc3e96e3c3, type: 3}
+      propertyPath: damageManager
+      value: 
+      objectReference: {fileID: 574588001}
     - target: {fileID: 4170315265125693167, guid: b499ad6031a020b499dbdfbc3e96e3c3, type: 3}
       propertyPath: arSessionOrigin
       value: 

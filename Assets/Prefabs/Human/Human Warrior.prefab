@@ -42,7 +42,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
---- !u!114 &-7915644456655855884
+--- !u!114 &4449884691967838682
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51,9 +51,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6241030297884195142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d2b8ffd2b8e924fa442cf6d9bef928, type: 3}
+  m_Script: {fileID: 11500000, guid: 10f38553ff5ae864da74854ab53a3da6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  className: Warrior
+  maxLife: 100
 --- !u!1001 &6241030297884295060
 PrefabInstance:
   m_ObjectHideFlags: 0

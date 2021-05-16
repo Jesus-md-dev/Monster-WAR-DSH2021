@@ -29,6 +29,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.63, z: 0.61}
   m_Center: {x: 0, y: 0.86, z: 0}
+--- !u!114 &1871429692454444824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733248427959890316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f38553ff5ae864da74854ab53a3da6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  className: Mage
+  maxLife: 100
 --- !u!114 &7969779378250406998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,18 +57,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   magic: {fileID: 5910779357782013219, guid: 742a3afd54537d34c91bc8494ea47ff7, type: 3}
   exit: {fileID: 6378998242912666205}
---- !u!114 &3240449187591884115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3733248427959890316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d2b8ffd2b8e924fa442cf6d9bef928, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6378998242912666205
 GameObject:
   m_ObjectHideFlags: 0

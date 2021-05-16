@@ -124,6 +124,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.7, z: 0.62}
   m_Center: {x: 0, y: 0.93, z: 0}
+--- !u!114 &-4449370100744994889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479338805038970422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f38553ff5ae864da74854ab53a3da6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  className: Archer
+  maxLife: 100
 --- !u!114 &7135502437713329754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,18 +152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrow: {fileID: 6710349579341732069, guid: b1cf86f0b8f13524f843f45037156639, type: 3}
   exit: {fileID: 7529212428529791028}
---- !u!114 &-7475323359198756789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8479338805038970422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3d2b8ffd2b8e924fa442cf6d9bef928, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8250250796445981100
 PrefabInstance:
   m_ObjectHideFlags: 0

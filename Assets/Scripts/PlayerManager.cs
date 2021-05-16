@@ -9,6 +9,8 @@ public class PlayerManager : MonoBehaviour
     private GameObject arSessionOrigin;
     [SerializeField]
     private Button battleButton;
+    [SerializeField]
+    private DamageManager damageManager;
     private ImageTracking imageTracking;
     private  GameObject human, monster;
     public  bool inBattle = false;
@@ -35,10 +37,10 @@ public class PlayerManager : MonoBehaviour
     {
         battleButton.interactable = false;
         Debug.Log("Battle");
-        StartCoroutine(Battle(imageTracking.getPlayerCharacter()));
+        StartCoroutine(Battle());
     }
 
-    IEnumerator Battle(GameObject playerCharacter)
+    IEnumerator Battle()
     {
         float timer = 0;
         inBattle = true;
@@ -46,12 +48,16 @@ public class PlayerManager : MonoBehaviour
         {
             timer += Time.deltaTime;
             seconds = timer;
-            playerCharacter.GetComponent<Animator>().SetTrigger("Attack");
+            human.GetComponent<Animator>().SetTrigger("Attack");
             monster.GetComponent<Animator>().SetTrigger("Attack");
             yield return null;
         }
         inBattle = false;
-        
+        human.GetComponent<CharacterManager>()
+            .Damaged(damageManager.BattleDamage(
+                human.GetComponent<CharacterManager>().getClassName(), 
+                monster.GetComponent<CharacterManager>().getClassName()));
+        Debug.Log("Battle Ended");
     }
 
     private void OnTriggerEnter(Collider other) {
